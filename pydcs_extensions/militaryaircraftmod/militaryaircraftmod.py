@@ -1,7 +1,7 @@
 # Requires Military Aircraft Mod :
 # https://www.digitalcombatsimulator.com/en/files/3307071/
 #
-from dcs import unittype
+from dcs import PlaneType
 
 
 class A400M_Atlas(PlaneType):
