@@ -1081,7 +1081,6 @@ UNIT_BY_TASK = {
         frenchpack.DIM__TOYOTA_DESERT,
         frenchpack.DIM__KAMIKAZE,
     ],
-    AirDefence: [],
     Reconnaissance: [
         Unarmed.Truck_M818_6x6,
         Unarmed.Truck_Ural_375,
@@ -1353,18 +1352,6 @@ def upgrade_to_supercarrier(unit, name: str):
         return CV_1143_5_Admiral_Kuznetsov_2017
     else:
         return unit
-
-
-def unit_task(unit: UnitType) -> Optional[Task]:
-    for task, units in UNIT_BY_TASK.items():
-        if unit in units:
-            return task
-
-    if unit in SAM_CONVERT:
-        return unit_task(SAM_CONVERT[unit])
-
-    print(unit.name + " cause issue")
-    return None
 
 
 def find_unittype(for_task: Type[MainTask], country_name: str) -> List[Type[UnitType]]:
