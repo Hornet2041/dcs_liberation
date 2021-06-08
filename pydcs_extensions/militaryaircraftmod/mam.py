@@ -1,5 +1,5 @@
-# Requires French Pack mod :
-# https://forums.eagle.ru/showthread.php?t=279974
+# Requires Military Aircraft Mod :
+# https://www.digitalcombatsimulator.com/en/files/3307071/
 #
 from dcs import unittype
 
