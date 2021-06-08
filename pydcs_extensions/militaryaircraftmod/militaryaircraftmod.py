@@ -1,14 +1,13 @@
 # Requires Military Aircraft Mod :
 # https://www.digitalcombatsimulator.com/en/files/3307071/
 #
-        from dcs.weapons_data import Weapons
-        import dcs.task as task
-        from dcs.unittype import FlyingType
-        from enum import Enum
+from dcs.weapons_data import Weapons
+import dcs.task as task
+from dcs.unittype import FlyingType
+from enum import Enum
 
 
-        class PlaneType(FlyingType):
-    pass
+class PlaneType(FlyingType):
 
 
 class A400M_Atlas(PlaneType):
