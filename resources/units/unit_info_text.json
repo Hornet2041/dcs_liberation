@@ -48,6 +48,15 @@
             "year-of-variant-introduction": "1962"
         }
     }],
+    "A400M_Atlas": [{
+        "default": {
+            "name": "A400M Atlas",
+            "country-of-origin": "Spain",
+            "manufacturer": "Airbus Military",
+            "role": "Strategic airlift",
+            "year-of-variant-introduction": "2013"
+        }
+    }],
     "AH_1W": [{
         "default": {
             "name": "AH-1W SuperCobra",
@@ -119,6 +128,15 @@
             "name": "Fortress Mk.III"
         }
     }],
+    "B2_Spirit": [{
+         "default": {
+            "name": "B-2 Spirit",
+            "country-of-origin": "USA",
+            "manufacturer": "Northrop Grumman",
+            "role": "Stealth Strategic Bomber",
+            "year-of-variant-introduction": "1997"
+        }
+    }],
     "B-52H": [{
         "default": {
             "name": "B-52H Stratofortress",
@@ -154,6 +172,24 @@
             "manufacturer": "CASA",
             "role": "Trainer",
             "year-of-variant-introduction": "1980"
+        }
+    }],
+    "C2A_Greyhound": [{
+        "default": {
+            "name": "C-2A Greyhound",
+            "country-of-origin": "USA",
+            "manufacturer": "Northrop Grumman",
+            "role": "Carrier-capable transport",
+            "year-of-variant-introduction": "2013"
+        }
+    }],
+    "C5_Galaxy": [{
+        "default": {
+            "name": "C-5 Galaxy",
+            "country-of-origin": "USA",
+            "manufacturer": "Lockheed Martin",
+            "role": "Heavy strategic airlift",
+            "year-of-variant-introduction": "1968"
         }
     }],
     "E-2C": [{
