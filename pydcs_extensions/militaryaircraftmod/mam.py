@@ -273,20 +273,20 @@ class A400M_Atlas(PlaneType):
     task_default = task.Transport
     
     class B2_Spirit(PlaneType):
-    id = "B2_Spirit"
-    group_size_max = 1
-    height = 10.36
-    width = 41.67
-    length = 44.81
-    fuel_max = 88450
-    max_speed = 1329.84
-    chaff = 60
-    flare = 30
-    charge_total = 120
-    chaff_charge_size = 1
-    flare_charge_size = 2
-    eplrs = True
-    radio_frequency = 127.5
+        id = "B2_Spirit"
+        group_size_max = 1
+        height = 10.36
+        width = 41.67
+        length = 44.81
+        fuel_max = 88450
+        max_speed = 1329.84
+        chaff = 60
+        flare = 30
+        charge_total = 120
+        chaff_charge_size = 1
+        flare_charge_size = 2
+        eplrs = True
+        radio_frequency = 127.5
 
     class Pylon1:
         B2_Mk_82_40 = (1, Weapons.B2_Mk_82_40)
