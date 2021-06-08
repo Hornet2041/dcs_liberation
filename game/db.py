@@ -158,6 +158,7 @@ from dcs.vehicles import (
 
 import pydcs_extensions.frenchpack.frenchpack as frenchpack
 import pydcs_extensions.highdigitsams.highdigitsams as highdigitsams
+import pydcs_extensions.militaryaircraftmod.mam as mam
 
 # PATCH pydcs data with MODS
 from game.factions.faction_loader import FactionLoader
@@ -167,6 +168,7 @@ from pydcs_extensions.hercules.hercules import Hercules
 from pydcs_extensions.mb339.mb339 import MB_339PAN
 from pydcs_extensions.su57.su57 import Su_57
 
+
 UNITINFOTEXT_PATH = Path("./resources/units/unit_info_text.json")
 
 plane_map["A-4E-C"] = A_4E_C
@@ -174,6 +176,13 @@ plane_map["F-22A"] = F_22A
 plane_map["MB-339PAN"] = MB_339PAN
 plane_map["Su-57"] = Su_57
 plane_map["Hercules"] = Hercules
+plane_map["A400M_Atlas"] = mam.A400M_Atlas
+plane_map["B2_Spirit"] = mam.B2_Spirit
+plane_map["C2A_Greyhound"] = mam.C2A_Greyhound
+plane_map["C5_Galaxy"] = mam.C5_Galaxy
+plane_map["KC_10_Extender"] = mam.KC_10_Extender
+plane_map["P3C_Orion"] = mam.P3C_Orion
+plane_map["V22_Osprey"] = mam.V22_Osprey
 
 vehicle_map["FieldHL"] = frenchpack._FIELD_HIDE
 vehicle_map["HARRIERH"] = frenchpack._FIELD_HIDE_SMALL
@@ -417,6 +426,7 @@ PRICES = {
     A_10A: 16,
     A_10C: 22,
     A_10C_2: 24,
+    P3C_Orion: 20,
     S_3B: 10,
     # heli
     Ka_50: 13,
@@ -438,6 +448,7 @@ PRICES = {
     UH_60A: 4,
     Mi_26: 4,
     # Bombers
+    B2_Spirit: 75,
     B_52H: 35,
     B_1B: 50,
     F_117A: 100,
@@ -446,12 +457,14 @@ PRICES = {
     Tu_95MS: 35,
     Tu_142: 35,
     # special
+    C5_Galaxy: 40,
     IL_76MD: 30,
     An_26B: 25,
     An_30M: 25,
     Yak_40: 25,
     S_3B_Tanker: 20,
     IL_78M: 25,
+    KC_10_Extender: 25,
     KC_135: 25,
     KC130: 25,
     KC135MPRS: 25,
@@ -459,9 +472,12 @@ PRICES = {
     KJ_2000: 50,
     E_3A: 50,
     E_2C: 50,
+    A400M_Atlas: 30,
     C_130: 25,
     Hercules: 25,
+    V22_Osprey: 15,
     C_17A: 20,
+    C2A_Greyhound: 10,
     # WW2
     P_51D_30_NA: 18,
     P_51D: 16,
@@ -801,8 +817,10 @@ CARRIER_CAPABLE = [
     Su_33,
     A_4E_C,
     S_3B,
+    C2A_Greyhound,
     E_2C,
     UH_1H,
+    V22_Osprey,
     Mi_8MT,
     Ka_50,
     AH_1W,
