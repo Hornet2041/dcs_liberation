@@ -259,6 +259,8 @@ DEAD_CAPABLE = [
     F_14A_135_GR,
     B_1B,
     B_52H,
+    B2_Spirit,
+    P3C_Orion,
     Tu_160,
     Tu_95MS,
     A_20G,
@@ -278,6 +280,7 @@ DEAD_CAPABLE = [
 
 # Aircraft used for Strike mission
 STRIKE_CAPABLE = [
+    B2_Spirit,
     F_117A,
     B_1B,
     B_52H,
@@ -341,6 +344,7 @@ STRIKE_CAPABLE = [
 ANTISHIP_CAPABLE = [
     AJS37,
     Tu_22M3,
+    P3C_Orion,
     FA_18C_hornet,
     Su_24M,
     Su_17M4,
@@ -369,12 +373,16 @@ RUNWAY_ATTACK_CAPABLE = [
 # For any aircraft that isn't necessarily directly involved in strike
 # missions in a direct combat sense, but can transport objects and infantry.
 TRANSPORT_CAPABLE = [
+    C5_Galaxy,
     C_17A,
     Hercules,
+    A400M_Atlas,
     C_130,
     IL_76MD,
     An_26B,
     Yak_40,
+    C2A_Greyhound,
+    V22_Osprey,
     CH_53E,
     CH_47D,
     SH_60B,
