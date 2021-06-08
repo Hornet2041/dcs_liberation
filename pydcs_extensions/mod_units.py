@@ -4,7 +4,7 @@ from pydcs_extensions.hercules.hercules import Hercules
 from pydcs_extensions.highdigitsams import highdigitsams
 from pydcs_extensions.mb339.mb339 import MB_339PAN
 from pydcs_extensions.su57.su57 import Su_57
-import pydcs_extensions.militaryaircraftmod.mam as mam
+import pydcs_extensions.militaryaircraftmod.militaryaircraftmod as militaryaircraftmod
 import pydcs_extensions.frenchpack.frenchpack as frenchpack
 
 MODDED_AIRPLANES = [
@@ -13,13 +13,13 @@ MODDED_AIRPLANES = [
     Su_57,
     F_22A,
     Hercules,
-    mam.A400M_Atlas,
-    mam.B2_Spirit,
-    mam.C2A_Greyhound,
-    mam.C5_Galaxy,
-    mam.KC_10_Extender,
-    mam.P3C_Orion,
-    mam.V22_Osprey,
+    militaryaircraftmod.A400M_Atlas,
+    militaryaircraftmod.B2_Spirit,
+    militaryaircraftmod.C2A_Greyhound,
+    militaryaircraftmod.C5_Galaxy,
+    militaryaircraftmod.KC_10_Extender,
+    militaryaircraftmod.P3C_Orion,
+    militaryaircraftmod.V22_Osprey,
 ]
 MODDED_VEHICLES = [
     frenchpack._FIELD_HIDE,
